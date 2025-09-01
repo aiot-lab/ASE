@@ -1,0 +1,50 @@
+{
+    "play_arg": {
+        "blocksize": 1024,
+        "buffersize": 64,
+        "sampling_rate": 48000,
+        "load_data_seq": true
+    },
+    "global_arg": {
+        "delay": 5,
+        "task": "speed",
+        "save_root": "./data/",
+        "set_save": true
+    },
+    "process_arg": {
+        "num_topK_subcarriers": 128,
+        "windows_time": 1,
+        "set_preprocess": true,
+        "remove_start_threshold": 2e-3,
+        "perform_filter": true
+    },
+    "analysis_settings": {
+        "data_rec_idx": 44,
+        "load_gt": false,
+        "save_result": true
+    },
+    "experiment_settings": {
+        "location": "Home",
+        "people": "user",
+        "exp_name": "default_exp",
+        "process_after_exp": true,
+        "input_device": "default",
+        "output_device": "default",
+        "use_realsense": false
+    },
+    "data_handling": {
+        "load_data_play_path": "Kasami_63_0_40_true_true_512_20250_1_256_2.5.wav",
+        "search_dict": {
+            "frame_length": 63,
+            "duration": 40,
+            "N_padding": 512,
+            "orth": "true",
+            "nchannels": 2,
+            "delay_num": 256,
+            "waveform": "Kasami"
+        }
+    },
+    "visualization": {
+        "output_dir": "./figures_output/"
+    }
+}

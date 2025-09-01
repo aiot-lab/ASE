@@ -1,0 +1,25 @@
+[project]
+name = "ASE"
+version = "0.1.0"
+description = "The official implementation of ASE: Practical Acoustic Speed Estimation Beyond Doppler via Sound Diffusion Field"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "anyconfig>=0.14.0",
+    "click>=8.1.8",
+    "loguru>=0.7.3",
+    "matplotlib>=3.9.4",
+    "numba>=0.60.0",
+    "numpy==1.26.2",
+    "pandas>=2.3.2",
+    "plotly==5.13.1",
+    "pyyaml>=6.0.2",
+    "scikit-image>=0.24.0",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.13.1",
+    "sounddevice>=0.5.2",
+    "soundfile>=0.13.1",
+    "stqdm==0.0.5",
+    "streamlit==1.22.0",
+    "tqdm>=4.67.1",
+]
